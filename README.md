@@ -21,13 +21,15 @@ This FastAPI-based microservice provides a caching mechanism for transforming an
 ### Project Structure
 ```
 .
-├── main.py          # Entry point for FastAPI application
-├── database.py      # Database setup and session management
-├── models.py        # SQLModel database models
-├── schemas.py       # Pydantic request schemas
-├── utils.py         # Utility functions (hashing, transformation)
-├── routes.py        # API endpoints
-└── requirements.txt # Dependencies
+├── main.py            # Entry point for FastAPI application
+├── database.py        # Database setup and session management
+├── models.py          # SQLModel database models
+├── schemas.py         # Pydantic request schemas
+├── utils.py           # Utility functions (hashing, transformation)
+├── routes.py          # API endpoints
+├── test_endpoints.py  # Tests for endpoints
+├── Dockerfile         # Dockerfile
+└── requirements.txt   # Dependencies
 ```
 
 ### Installation & Setup
